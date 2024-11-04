@@ -29,7 +29,7 @@ def generate_qr_code(link, filename='qrcode.png'):
 
 # ------------------------------------------------------------
 if __name__ == "__main__":
-    # Use the provided Google Forms link to generate the QR code
+    # Use the provided link to generate the QR code
     link = " ## "
     qr_image = generate_qr_code(link)
     qr_image.show()  # Opens the generated QR code image for viewing and printing
